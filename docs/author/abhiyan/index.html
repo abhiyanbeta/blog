@@ -20,11 +20,15 @@
     <meta property="og:title" content="Abhiyan Bhandari - Abhiyan&#x27;s Blog" />
     <meta property="og:description" content="Welcome to my blog. My name is Abhiyan. Articles on my journey of learning programming and software development." />
     <meta property="og:url" content="http://localhost:2368/author/abhiyan/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="http://localhost:2368/content/images/2020/06/sunrise-1756274_1280.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Abhiyan Bhandari - Abhiyan&#x27;s Blog" />
     <meta name="twitter:description" content="Welcome to my blog. My name is Abhiyan. Articles on my journey of learning programming and software development." />
     <meta name="twitter:url" content="http://localhost:2368/author/abhiyan/" />
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2020/06/sunrise-1756274_1280.jpg" />
     <meta name="twitter:site" content="@abhiyanbeta" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
     
     <script type="application/ld+json">
 {
@@ -33,6 +37,12 @@
     "sameAs": [],
     "name": "Abhiyan Bhandari",
     "url": "http://localhost:2368/author/abhiyan/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2020/06/sunrise-1756274_1280.jpg",
+        "width": 1280,
+        "height": 640
+    },
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -82,12 +92,37 @@
     </div>
 </div>    
 
-<div class="outer site-header-background no-image">
+<style type="text/css">
+    .responsive-header-img {
+        background-image: url(../../content/images/size/w2000/2020/06/sunrise-1756274_1280.jpg);
+    }
+
+    @media(max-width: 1000px) {
+        .responsive-header-img {
+            background-image: url(../../content/images/size/w1000/2020/06/sunrise-1756274_1280.jpg);
+            background-image: -webkit-image-set(url(../../content/images/size/w1000/2020/06/sunrise-1756274_1280.jpg) 1x,
+                url(../../content/images/size/w2000/2020/06/sunrise-1756274_1280.jpg) 2x);
+            background-image: image-set(url(../../content/images/size/w1000/2020/06/sunrise-1756274_1280.jpg) 1x,
+                url(../../content/images/size/w2000/2020/06/sunrise-1756274_1280.jpg) 2x);
+        }
+    }
+
+    @media(max-width: 600px) {
+        .responsive-header-img {
+            background-image: url(../../content/images/size/w600/2020/06/sunrise-1756274_1280.jpg);
+            background-image: -webkit-image-set(url(../../content/images/size/w600/2020/06/sunrise-1756274_1280.jpg) 1x,
+                url(../../content/images/size/w1000/2020/06/sunrise-1756274_1280.jpg) 2x);
+            background-image: image-set(url(../../content/images/size/w600/2020/06/sunrise-1756274_1280.jpg) 1x,
+                url(../../content/images/size/w1000/2020/06/sunrise-1756274_1280.jpg) 2x);
+        }
+    }
+</style>
+<div class="outer site-header-background responsive-header-img">
 
  
         <div class="inner">
             <div class="site-header-content author-header">
-                    <img class="author-profile-image" src="http://www.gravatar.com/avatar/5a1694059b1444fbf228dc13a7d7e658?s=250&amp;d=mm&amp;r=x" alt="Abhiyan Bhandari" />
+                    <img class="author-profile-image" src="../../content/images/2020/06/cropped.png" alt="Abhiyan Bhandari" />
                 <div class="author-header-content">
                     <h1 class="site-title">Abhiyan Bhandari</h1>
                     <div class="author-meta">
@@ -132,7 +167,7 @@
                     </div>
             
                     <a href="index.html" class="static-avatar">
-                        <img class="author-profile-image" src="http://www.gravatar.com/avatar/5a1694059b1444fbf228dc13a7d7e658?s=250&amp;d=mm&amp;r=x" alt="Abhiyan Bhandari" />
+                        <img class="author-profile-image" src="../../content/images/size/w100/2020/06/cropped.png" alt="Abhiyan Bhandari" />
                     </a>
                 </li>
             </ul>
