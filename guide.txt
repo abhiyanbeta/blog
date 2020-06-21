@@ -1,2 +1,8 @@
 Ghost admin:
 http://localhost:2368/ghost
+
+Error kept coming when I committed changes with:
+git push -u origin master
+
+So I used:
+git push --force origin master
