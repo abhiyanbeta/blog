@@ -6,3 +6,11 @@ git push -u origin master
 
 So I used:
 git push --force origin master
+
+The script was not executable so I did: 
+sudo chmod +x update.sh
+Where update.sh is the script name 
+
+
+Used tutorial from:
+https://zzamboni.github.io/test-ghost-blog/hosting-a-ghost-blog-in-github-the-easier-way/index.html
