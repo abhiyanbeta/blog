@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/abhiyanbeta/abhiyanbeta.github.io/issues"
   },
-  "homepage": "https://github.com/abhiyanbeta/abhiyanbeta.github.io#readme"
+  "homepage": "https://github.com/abhiyanbeta/abhiyanbeta.github.io#readme",
+  "dependencies": {
+    "ghost-search": "^1.1.0"
+  }
 }
